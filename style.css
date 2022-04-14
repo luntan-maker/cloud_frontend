@@ -17,7 +17,6 @@ div {
 #header {
   height: 40px;
   width: 100%;
-  background-color: #ffcccc;
   position: fixed;
   z-index: 1;
 }
@@ -29,7 +28,6 @@ div {
 #footer {
   height: 50px;
   width: 100%;
-  background-color: #ffcccc;
   clear: both;
   position: relative;
 }
@@ -37,7 +35,6 @@ div {
 .left {
   height: 1000px;
   width: 45px;
-  background-color: #e0eeee;
   float: left;
   position: fixed;
 }
