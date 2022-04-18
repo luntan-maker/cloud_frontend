@@ -1,11 +1,10 @@
-import react, { useState, useEffect } from 'react';
-import axios from 'axios';
+import { useState, useEffect } from 'react';
 export default function Header() {
-    const [count, setCount] = useState(0);
+    
     useEffect(() => {
         var my_link = "*"
 
-        var ips = fetch("https://ipinfo.io/json")
+        fetch("https://ipinfo.io/json")
         .then(function (response) {
         return response.json();
         })
@@ -22,7 +21,7 @@ export default function Header() {
         console.log("Error: " + error);
         });
 
-        var response = fetch("https://uddkyyt448.execute-api.us-east-1.amazonaws.com/Prod/read", {
+        fetch("https://uddkyyt448.execute-api.us-east-1.amazonaws.com/Prod/read", {
         headers: {
             "Access-Control-Allow-Headers": "*",
             "Access-Control-Allow-Origin": my_link//"*"
