@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@main
-    - uses: jeanlescure/react-deploy-to-s3-action@main
+    - uses: jeanlescure/react-deploy-to-s3-action@v1.0.8
       with:
         args: --follow-symlinks --delete
       env:
