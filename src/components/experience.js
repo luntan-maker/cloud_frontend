@@ -13,7 +13,7 @@ export default function Experience() {
                 Designed extensions of GUI and embedded features for optimal functioning.
                 </li>
                 <li>
-                Programmed features regarding GUI in C\#, and embedded C.
+                Programmed features regarding GUI in C#, and embedded C.
                 </li>
             </ul>
             
