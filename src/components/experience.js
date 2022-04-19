@@ -3,6 +3,21 @@ export default function Experience() {
         <div>
             <strong class="sub-heading">Related Experience</strong>
             <div>
+            
+            <strong class="job-title">The Cloud Resume Challenge</strong> <span class="date"> Apr. 2022 </span>
+            <ul>
+                <li> Created a frontend using CSS, HTML, JavaScript, and then porting it over to React.
+                </li>
+                <li>Created a backend using a SAM template with Python, alongside some tests, using DynamoDB as a database, and interacting with API Gateway with JavaScript.
+                </li>
+                <li>
+                Deployed the frontend using S3 and CloudFront. Registered a domain name using Route53, and generated a public certificate for the CloudFront distribution.                </li>
+                <li>
+                Used GitHub and GitHub actions to create a repository and CI/CD pipeline for the frontend and backend.
+                </li>
+            </ul>
+
+
             <strong class="job-title">Internship</strong> Residential Control Systems Technology, San Diego, CA <span class="date"> Oct.  2018 - Dec.  2018 </span>
             <ul>
                 <li> Researched how C and C# worked and how the languages interfaced with ZWave controller and proprietary hardware.
